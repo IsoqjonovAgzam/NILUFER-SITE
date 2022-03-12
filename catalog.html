@@ -142,9 +142,9 @@
                 <!-- Catalog top -->
 
                 <div class="catalog__navigation navigation">
-                    <a class="navigation__text" href="./index.html">Главная страница </a>
+                    <a class="navigation__text" href="./index.html">Bosh sahifa </a>
                     <span class="navigation__text">/ </span>
-                    <a class="navigation__text" href="./catalog.html">Жилое</a>
+                    <a class="navigation__text" href="./catalog.html">OFFIS mebellar</a>
                 </div>
 
 
@@ -648,36 +648,35 @@
 
                         </ul>
 
-                        <div class="catalog__create" style="margin-top: 70px;">
-                            <div class="catalog__create__inner">
-                                <h3 class="catalog__create__heading">Нет подходящего проекта?</h3>
 
-                                <p class="catalog__create__text">
-                                    Мы разработаем проект индивидуально под ваш запрос с помощью 3D-макета
-                                </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONSULTATION -->
+        <section class="consultation">
+            <div class="container">
+                <div class="consultation__inner">
+                    <div class="consultation__form" action="https://echo.htmlacademy.ru/" method="post">
 
-                                <a class="catalog__create__link button" href="#">Разработать проект</a>
-                            </div>
+                        <form id="telegram_send" class="contact__form" action="https://echo.htmlacademy.ru/"
+                            method="post">
+                            <p class="contacts__text">Agar mahsulotimiz yoqan bo'lsa, raqamingizni qoldiring</p>
 
-                            <picture>
-                                <source type="image/webp" media="(max-width: 425px)"
-                                    srcset="./images/create-project/mobile/webp/2x/mobile-1@2x.webp 2x, ./images/create-project/mobile/webp/1x/mobile-1.webp 1x">
+                            <label class="contact__label">
+                                <input id="contact-name" class="contact__input" type="text" placeholder="Введите имя"
+                                    name="user_name" required>
+                            </label>
 
-                                <source type="image/webp"
-                                    srcset="./images/create-project/desktop/webp/2x/desktop-1@2x.webp 2x, ./images/create-project/desktop/webp/1x/desktop-1.webp 1x">
+                            <label class="contact__label">
 
-                                <!-- jpeg -->
+                                <input id="contact-email" class="contact__input" type="number"
+                                    placeholder="+998 9X XXX XX XX" required>
+                            </label>
 
-                                <source media="(max-width: 425px)"
-                                    srcset="./images/create-project/mobile/2x/mobile-1@2x.jpg 2x, ./images/create-project/mobile/1x/mobile-1.jpg 1x">
+                            <button type="submit" class="contact__form__button button">Получить точный расчет</button>
 
-                                <img class="catalog__create__image"
-                                    src="./images/create-project/desktop/1x/desktop-1.jpg"
-                                    srcset="./images/create-project/desktop/2x/desktop-1@2x.jpg 2x, ./images/create-project/desktop/1x/desktop-1.jpg 1x"
-                                    alt="" width="365" height="290">
-                            </picture>
-                        </div>
-
+                        </form>
                     </div>
                 </div>
             </div>
@@ -685,8 +684,8 @@
     </main>
 
 
-     <!-- FOOTER -->
-     <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="footer">
         <div class="container">
 
             <!-- logo -->
